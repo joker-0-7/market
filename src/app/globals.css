@@ -38,6 +38,10 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --blackColor: #222831;
+  --grayColor: #393E46;
+  --mainColor: #00ADB5;
+  --whiteColor: #EEEEEE;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,6 +81,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 html,

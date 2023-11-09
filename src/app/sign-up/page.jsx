@@ -2,10 +2,14 @@
 import AuthForm from "../components/AuthForm";
 import { useState } from "react";
 
-const login = ()=>{
+const signUp = ()=>{
     const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [address, setAddress] = useState("");
+  const [city, setCity] = useState("");
+  const [zip, setZip] = useState("");
   const handleSubmit = (e)=>{
     e.preventDefault()
   }
@@ -21,12 +25,22 @@ const login = ()=>{
                     setEmail={setEmail}
                     password={password}
                     setPassword={setPassword}
+                    name={name}
+                    setName={setName}
+                    phone={phone}
+                    setPhone={setPhone}
+                    address={address}
+                    setAddress={setAddress}
+                    city={city}
+                    setCity={setCity}
+                    zip={zip}
+                    setZip={setZip}
                     handleSubmit={handleSubmit}
-                    page={'login'}
+                    page={'register'}
                     />
                 </div>
             </div>
         </div>
     )
 }
-export default login;
+export default signUp;

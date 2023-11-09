@@ -2,7 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import dynamic from 'next/dynamic';
 import './globals.css'
-import Nav from './components/Nav';
+import './style.css'
+import Mnue from "./components/Mnue";
 
 const DynamicBootstrap = dynamic(
   () => require('bootstrap/dist/js/bootstrap.min.js'),
@@ -18,8 +19,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar">
       <body>
-        <Nav />
-        {children}</body>
+        <Mnue />
+        {children}
+        </body>
     </html>
   )
 }
