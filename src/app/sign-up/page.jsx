@@ -3,8 +3,8 @@ import AuthForm from "../components/AuthForm";
 import { useState } from "react";
 
 const SignUp = ()=>{
-    const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+    const [Email, setEmail] = useState("");
+  const [Password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
@@ -21,9 +21,9 @@ const SignUp = ()=>{
                 </div>
                 <div className="form">
                     <AuthForm
-                    email={email}
+                    Email={Email}
                     setEmail={setEmail}
-                    password={password}
+                    Password={Password}
                     setPassword={setPassword}
                     name={name}
                     setName={setName}

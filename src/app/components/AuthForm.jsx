@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const AuthForm = ({
-  email,
+  Email,
   setEmail,
-  password,
+  Password,
   setPassword,
   name,
   setName,
@@ -28,7 +28,7 @@ const AuthForm = ({
           type="email"
           className="form-control"
           id="inputEmail4"
-          value={email}
+          value={Email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
@@ -41,7 +41,7 @@ const AuthForm = ({
           type="password"
           className="form-control"
           id="inputPassword4"
-          value={password}
+          value={Password}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
