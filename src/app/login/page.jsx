@@ -2,7 +2,7 @@
 import AuthForm from "../components/AuthForm";
 import { useState } from "react";
 
-const login = ()=>{
+const Login = ()=>{
     const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   
@@ -29,4 +29,4 @@ const login = ()=>{
         </div>
     )
 }
-export default login;
+export default Login;

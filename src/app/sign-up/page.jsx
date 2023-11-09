@@ -2,7 +2,7 @@
 import AuthForm from "../components/AuthForm";
 import { useState } from "react";
 
-const signUp = ()=>{
+const SignUp = ()=>{
     const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
@@ -43,4 +43,4 @@ const signUp = ()=>{
         </div>
     )
 }
-export default signUp;
+export default SignUp;
